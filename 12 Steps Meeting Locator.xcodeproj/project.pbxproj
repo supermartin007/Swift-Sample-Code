@@ -1,0 +1,1782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334EBC001DD1D5A100F6277D /* notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBBFD1DD1D5A100F6277D /* notes.swift */; };
+		334EBC011DD1D5A100F6277D /* notesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBBFE1DD1D5A100F6277D /* notesCell.swift */; };
+		334EBC021DD1D5A100F6277D /* notesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334EBBFF1DD1D5A100F6277D /* notesCell.xib */; };
+		334EBC041DD1D5EE00F6277D /* meetingNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC031DD1D5EE00F6277D /* meetingNotes.swift */; };
+		334EBC061DD1D62200F6277D /* addnewNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC051DD1D62200F6277D /* addnewNote.swift */; };
+		334EBC091DD1D6EA00F6277D /* motivationalWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC081DD1D6EA00F6277D /* motivationalWallViewController.swift */; };
+		334EBC0C1DD1DD0D00F6277D /* addNewPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC0B1DD1DD0D00F6277D /* addNewPictureViewController.swift */; };
+		334EBC0F1DD1DE2300F6277D /* imageTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC0D1DD1DE2300F6277D /* imageTitleViewController.swift */; };
+		334EBC101DD1DE2300F6277D /* publicPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC0E1DD1DE2300F6277D /* publicPictureViewController.swift */; };
+		334EBC121DD1F67800F6277D /* addContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC111DD1F67800F6277D /* addContactViewController.swift */; };
+		334EBC151DD1FCB200F6277D /* upgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC141DD1FCB200F6277D /* upgradeViewController.swift */; };
+		334EBC181DD1FD2C00F6277D /* settingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC171DD1FD2C00F6277D /* settingView.swift */; };
+		334EBC1D1DD1FDAF00F6277D /* changePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC191DD1FDAF00F6277D /* changePasswordViewController.swift */; };
+		334EBC1E1DD1FDAF00F6277D /* faqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC1A1DD1FDAF00F6277D /* faqViewController.swift */; };
+		334EBC1F1DD1FDAF00F6277D /* helpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC1B1DD1FDAF00F6277D /* helpViewController.swift */; };
+		334EBC201DD1FDAF00F6277D /* term&conditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC1C1DD1FDAF00F6277D /* term&conditionViewController.swift */; };
+		334EBC221DD203A400F6277D /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC211DD203A400F6277D /* AboutUsViewController.swift */; };
+		334EBC241DD203FE00F6277D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC231DD203FE00F6277D /* ProfileViewController.swift */; };
+		334EBC271DD209C900F6277D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC251DD209C900F6277D /* TableViewCell.swift */; };
+		334EBC281DD209C900F6277D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334EBC261DD209C900F6277D /* TableViewCell.xib */; };
+		334EBC2D1DD20A6B00F6277D /* sobrietyCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC2A1DD20A6B00F6277D /* sobrietyCalculatorViewController.swift */; };
+		334EBC2E1DD20A6B00F6277D /* WhatsHereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC2C1DD20A6B00F6277D /* WhatsHereViewController.swift */; };
+		334EBC311DD20C6500F6277D /* FindMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC2F1DD20C6500F6277D /* FindMeetingViewController.swift */; };
+		334EBC321DD20C6500F6277D /* meeting_Finder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EBC301DD20C6500F6277D /* meeting_Finder.swift */; };
+		33631DC61DDC329700BF9E66 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33631DC51DDC329700BF9E66 /* HomeViewController.swift */; };
+		338D3BD01DC9F74D00C64EDF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338D3BCF1DC9F74D00C64EDF /* FBSDKCoreKit.framework */; };
+		338E299E1DCB25C300CDD721 /* WebserviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338E299D1DCB25C300CDD721 /* WebserviceManager.swift */; };
+		33BF71701DD2FCE500C4D319 /* AddMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BF716F1DD2FCE500C4D319 /* AddMeetingViewController.swift */; };
+		33E357EA1DD18FB300983257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E357E71DD18FB300983257 /* ViewController.swift */; };
+		33E357EB1DD18FB300983257 /* SMLRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E357E91DD18FB300983257 /* SMLRegisterViewController.swift */; };
+		33E357EE1DD1905700983257 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E357ED1DD1905700983257 /* FirstViewController.swift */; };
+		33E357F01DD1988A00983257 /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E357EF1DD1988A00983257 /* BaseApi.swift */; };
+		33E357F31DD1A7B400983257 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E357F21DD1A7B400983257 /* SideMenuViewController.swift */; };
+		33E357F81DD1A8C700983257 /* callSponsorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E357F51DD1A8C700983257 /* callSponsorViewController.swift */; };
+		33E357F91DD1A8C700983257 /* contactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E357F71DD1A8C700983257 /* contactViewController.swift */; };
+		33E358051DD1B44100983257 /* meetingFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E357FF1DD1B44100983257 /* meetingFinderViewController.swift */; };
+		33E358081DD1B5A200983257 /* MeetingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E358071DD1B5A200983257 /* MeetingDetailViewController.swift */; };
+		33E3580B1DD1B5A800983257 /* directionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E3580A1DD1B5A800983257 /* directionViewController.swift */; };
+		33E3580E1DD1B5FE00983257 /* checkInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E3580D1DD1B5FE00983257 /* checkInViewController.swift */; };
+		33E358111DD1B65400983257 /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E358101DD1B65400983257 /* MapManager.swift */; };
+		33F6878C1DE2D183002A23AB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F6878B1DE2D183002A23AB /* StoreKit.framework */; };
+		33FB822B1DE563820040E585 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33FB82281DE563820040E585 /* OpenSans-Bold.ttf */; };
+		33FB822C1DE563820040E585 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33FB82291DE563820040E585 /* OpenSans-Light.ttf */; };
+		33FB822D1DE563820040E585 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33FB822A1DE563820040E585 /* OpenSans-Regular.ttf */; };
+		B30E88D51B1CA0DB00670FEF /* JADebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B30E88D41B1CA0DB00670FEF /* JADebugViewController.m */; };
+		B31DAC7F1BD5B72D00AEECEC /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31DAC7E1BD5B72D00AEECEC /* GoogleMobileAds.framework */; };
+		B325F4791B28163400371465 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F4591B28163400371465 /* MKAnnotationView+WebCache.m */; };
+		B325F47A1B28163400371465 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F45B1B28163400371465 /* NSData+ImageContentType.m */; };
+		B325F47B1B28163400371465 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F45D1B28163400371465 /* SDImageCache.m */; };
+		B325F47C1B28163400371465 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F45F1B28163400371465 /* SDWebImageCompat.m */; };
+		B325F47D1B28163400371465 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F4611B28163400371465 /* SDWebImageDecoder.m */; };
+		B325F47E1B28163400371465 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F4631B28163400371465 /* SDWebImageDownloader.m */; };
+		B325F47F1B28163400371465 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F4651B28163400371465 /* SDWebImageDownloaderOperation.m */; };
+		B325F4801B28163400371465 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F4671B28163400371465 /* SDWebImageManager.m */; };
+		B325F4811B28163400371465 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F46A1B28163400371465 /* SDWebImagePrefetcher.m */; };
+		B325F4821B28163400371465 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F46C1B28163400371465 /* UIButton+WebCache.m */; };
+		B325F4831B28163400371465 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F46E1B28163400371465 /* UIImage+GIF.m */; };
+		B325F4841B28163400371465 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F4701B28163400371465 /* UIImage+MultiFormat.m */; };
+		B325F4851B28163400371465 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F4721B28163400371465 /* UIImage+WebP.m */; };
+		B325F4861B28163400371465 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F4741B28163400371465 /* UIImageView+HighlightedWebCache.m */; };
+		B325F4871B28163400371465 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F4761B28163400371465 /* UIImageView+WebCache.m */; };
+		B325F4881B28163400371465 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B325F4781B28163400371465 /* UIView+WebCacheOperation.m */; };
+		B32665DB1B1EC260002256B6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32665D91B1EC260002256B6 /* FBSDKLoginKit.framework */; };
+		B334AA421B3177D700E4F4E6 /* meetingFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B334AA401B3177D700E4F4E6 /* meetingFinder.xcdatamodeld */; };
+		B334AA441B3178D300E4F4E6 /* MeetingFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B334AA431B3178D300E4F4E6 /* MeetingFinder.swift */; };
+		B3388CEB1B182D30008D0B5E /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3388CEA1B182D30008D0B5E /* NavigationView.swift */; };
+		B33A90CC1B12E7A200231064 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A90CB1B12E7A200231064 /* Reachability.swift */; };
+		B33AA1E81B12ED9F003DA43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33AA1E41B12ED3D003DA43D /* Foundation.framework */; };
+		B33AA1E91B12EDA8003DA43D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33AA1E21B12ED2A003DA43D /* CoreFoundation.framework */; };
+		B33AA1EA1B12EDAD003DA43D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33AA1E01B12ED21003DA43D /* UIKit.framework */; };
+		B33AA1FE1B130E2E003DA43D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33AA1FD1B130E2E003DA43D /* SystemConfiguration.framework */; };
+		B33AA2001B130E3E003DA43D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33AA1FF1B130E3E003DA43D /* CFNetwork.framework */; };
+		B33AA2021B130E70003DA43D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B33AA2011B130E70003DA43D /* libz.dylib */; };
+		B33AA20B1B1328A1003DA43D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B33AA2081B1328A1003DA43D /* SVProgressHUD.bundle */; };
+		B33AA20C1B1328A1003DA43D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B33AA20A1B1328A1003DA43D /* SVProgressHUD.m */; };
+		B33AA2101B13290D003DA43D /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = B33AA20E1B13290D003DA43D /* SVIndefiniteAnimatedView.m */; };
+		B33B18E71B0F60990061BECB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B33B18D71B0F60990061BECB /* AFHTTPSessionManager.m */; };
+		B33B18E81B0F60990061BECB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B33B18DA1B0F60990061BECB /* AFNetworkReachabilityManager.m */; };
+		B33B18E91B0F60990061BECB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B33B18DC1B0F60990061BECB /* AFSecurityPolicy.m */; };
+		B33B18EB1B0F60990061BECB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B33B18E01B0F60990061BECB /* AFURLRequestSerialization.m */; };
+		B33B18EC1B0F60990061BECB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B33B18E21B0F60990061BECB /* AFURLResponseSerialization.m */; };
+		B33B18ED1B0F60990061BECB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B33B18E41B0F60990061BECB /* AFURLSessionManager.m */; };
+		B33B18F01B0F60C80061BECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B18EF1B0F60C80061BECB /* AppDelegate.swift */; };
+		B33E6AE11B26AE7B00208F56 /* SMLAppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E6AE01B26AE7B00208F56 /* SMLAppUser.swift */; };
+		B34552811B1C25B0001F20E2 /* SMLGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34552801B1C25B0001F20E2 /* SMLGlobal.swift */; };
+		B345528E1B1C4F7B001F20E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34552841B1C4F7B001F20E2 /* Constants.swift */; };
+		B345528F1B1C4F7B001F20E2 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34552891B1C4F7B001F20E2 /* JASidePanelController.m */; };
+		B34552901B1C4F7B001F20E2 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = B345528B1B1C4F7B001F20E2 /* UIViewController+JASidePanel.m */; };
+		B34552911B1C4F7B001F20E2 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = B345528C1B1C4F7B001F20E2 /* README.markdown */; };
+		B34552921B1C4F7B001F20E2 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345528D1B1C4F7B001F20E2 /* SideMenuController.swift */; };
+		B34552D11B1C839F001F20E2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34552D01B1C839F001F20E2 /* CoreLocation.framework */; };
+		B34552D31B1C83A5001F20E2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34552D21B1C83A5001F20E2 /* MapKit.framework */; };
+		B355B1D91B537CB00073BBD2 /* inAppPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B355B1D81B537CB00073BBD2 /* inAppPurchase.swift */; };
+		B355B1E21B53A44F0073BBD2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = B355B1E01B53A44E0073BBD2 /* README.txt */; };
+		B355B1E61B53A5CE0073BBD2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B355B1E51B53A5CE0073BBD2 /* iAd.framework */; };
+		B35766011B3AD72A00080F93 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35765FF1B3AD72900080F93 /* AddressBook.framework */; };
+		B35766021B3AD72A00080F93 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35766001B3AD72A00080F93 /* AddressBookUI.framework */; };
+		B35975AF1B79AF0A0060B1BE /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35975AE1B79AF0A0060B1BE /* GoogleMobileAds.framework */; };
+		B35EFE451B46510600C71978 /* InAppClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B35EFE441B46510600C71978 /* InAppClass.m */; };
+		B3645F7C1B2FE7A800C0CD86 /* SMLModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3645F7A1B2FE7A800C0CD86 /* SMLModel.xcdatamodeld */; };
+		B3645F7F1B2FE80E00C0CD86 /* Meeting.m in Sources */ = {isa = PBXBuildFile; fileRef = B3645F7E1B2FE80E00C0CD86 /* Meeting.m */; };
+		B3645F841B2FEB9100C0CD86 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3645F831B2FEB9100C0CD86 /* CoreDataHelper.swift */; };
+		B36C7B911AF338D200D9F996 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36C7B901AF338D200D9F996 /* Images.xcassets */; };
+		B36C7B941AF338D200D9F996 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36C7B921AF338D200D9F996 /* LaunchScreen.xib */; };
+		B38547081B186862000086C6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38547051B186862000086C6 /* Bolts.framework */; };
+		B3BFDF551B56960400C784DF /* SPGooglePlacesAutocompletePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BFDF4E1B56960400C784DF /* SPGooglePlacesAutocompletePlace.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B3BFDF561B56960400C784DF /* SPGooglePlacesAutocompleteQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BFDF501B56960400C784DF /* SPGooglePlacesAutocompleteQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B3BFDF571B56960400C784DF /* SPGooglePlacesAutocompleteUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BFDF521B56960400C784DF /* SPGooglePlacesAutocompleteUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B3BFDF581B56960400C784DF /* SPGooglePlacesPlaceDetailQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BFDF541B56960400C784DF /* SPGooglePlacesPlaceDetailQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3305DCD71DD5DFC300286DC0 /* 12 Steps Meeting Locator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "12 Steps Meeting Locator.entitlements"; sourceTree = "<group>"; };
+		334EBBFD1DD1D5A100F6277D /* notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notes.swift; sourceTree = "<group>"; };
+		334EBBFE1DD1D5A100F6277D /* notesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notesCell.swift; sourceTree = "<group>"; };
+		334EBBFF1DD1D5A100F6277D /* notesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = notesCell.xib; sourceTree = "<group>"; };
+		334EBC031DD1D5EE00F6277D /* meetingNotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meetingNotes.swift; sourceTree = "<group>"; };
+		334EBC051DD1D62200F6277D /* addnewNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addnewNote.swift; sourceTree = "<group>"; };
+		334EBC081DD1D6EA00F6277D /* motivationalWallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = motivationalWallViewController.swift; sourceTree = "<group>"; };
+		334EBC0B1DD1DD0D00F6277D /* addNewPictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addNewPictureViewController.swift; sourceTree = "<group>"; };
+		334EBC0D1DD1DE2300F6277D /* imageTitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageTitleViewController.swift; sourceTree = "<group>"; };
+		334EBC0E1DD1DE2300F6277D /* publicPictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = publicPictureViewController.swift; sourceTree = "<group>"; };
+		334EBC111DD1F67800F6277D /* addContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addContactViewController.swift; sourceTree = "<group>"; };
+		334EBC141DD1FCB200F6277D /* upgradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = upgradeViewController.swift; sourceTree = "<group>"; };
+		334EBC171DD1FD2C00F6277D /* settingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingView.swift; sourceTree = "<group>"; };
+		334EBC191DD1FDAF00F6277D /* changePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changePasswordViewController.swift; sourceTree = "<group>"; };
+		334EBC1A1DD1FDAF00F6277D /* faqViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = faqViewController.swift; sourceTree = "<group>"; };
+		334EBC1B1DD1FDAF00F6277D /* helpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helpViewController.swift; sourceTree = "<group>"; };
+		334EBC1C1DD1FDAF00F6277D /* term&conditionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "term&conditionViewController.swift"; sourceTree = "<group>"; };
+		334EBC211DD203A400F6277D /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		334EBC231DD203FE00F6277D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		334EBC251DD209C900F6277D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		334EBC261DD209C900F6277D /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		334EBC2A1DD20A6B00F6277D /* sobrietyCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sobrietyCalculatorViewController.swift; sourceTree = "<group>"; };
+		334EBC2C1DD20A6B00F6277D /* WhatsHereViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsHereViewController.swift; sourceTree = "<group>"; };
+		334EBC2F1DD20C6500F6277D /* FindMeetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindMeetingViewController.swift; sourceTree = "<group>"; };
+		334EBC301DD20C6500F6277D /* meeting_Finder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meeting_Finder.swift; sourceTree = "<group>"; };
+		33631DC51DDC329700BF9E66 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		338D3BCF1DC9F74D00C64EDF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		338E299D1DCB25C300CDD721 /* WebserviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceManager.swift; sourceTree = "<group>"; };
+		33BF716F1DD2FCE500C4D319 /* AddMeetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMeetingViewController.swift; sourceTree = "<group>"; };
+		33E357E71DD18FB300983257 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33E357E91DD18FB300983257 /* SMLRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMLRegisterViewController.swift; sourceTree = "<group>"; };
+		33E357ED1DD1905700983257 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		33E357EF1DD1988A00983257 /* BaseApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
+		33E357F21DD1A7B400983257 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		33E357F51DD1A8C700983257 /* callSponsorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = callSponsorViewController.swift; sourceTree = "<group>"; };
+		33E357F71DD1A8C700983257 /* contactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactViewController.swift; sourceTree = "<group>"; };
+		33E357FF1DD1B44100983257 /* meetingFinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = meetingFinderViewController.swift; sourceTree = "<group>"; };
+		33E358071DD1B5A200983257 /* MeetingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingDetailViewController.swift; sourceTree = "<group>"; };
+		33E3580A1DD1B5A800983257 /* directionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = directionViewController.swift; sourceTree = "<group>"; };
+		33E3580D1DD1B5FE00983257 /* checkInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkInViewController.swift; sourceTree = "<group>"; };
+		33E358101DD1B65400983257 /* MapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
+		33F6878B1DE2D183002A23AB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		33FB82281DE563820040E585 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		33FB82291DE563820040E585 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		33FB822A1DE563820040E585 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		33FB822E1DE5654C0040E585 /* Spledger-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Spledger-Bridging-Header.h"; sourceTree = "<group>"; };
+		B30E88D31B1CA0DB00670FEF /* JADebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JADebugViewController.h; path = JASidePanels/JADebugViewController.h; sourceTree = "<group>"; };
+		B30E88D41B1CA0DB00670FEF /* JADebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JADebugViewController.m; path = JASidePanels/JADebugViewController.m; sourceTree = "<group>"; };
+		B31DAC7E1BD5B72D00AEECEC /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "12 Steps Meeting Locator/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		B325F4581B28163400371465 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		B325F4591B28163400371465 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		B325F45A1B28163400371465 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		B325F45B1B28163400371465 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		B325F45C1B28163400371465 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		B325F45D1B28163400371465 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		B325F45E1B28163400371465 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		B325F45F1B28163400371465 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		B325F4601B28163400371465 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		B325F4611B28163400371465 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		B325F4621B28163400371465 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		B325F4631B28163400371465 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		B325F4641B28163400371465 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		B325F4651B28163400371465 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		B325F4661B28163400371465 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		B325F4671B28163400371465 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		B325F4681B28163400371465 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		B325F4691B28163400371465 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		B325F46A1B28163400371465 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		B325F46B1B28163400371465 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		B325F46C1B28163400371465 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		B325F46D1B28163400371465 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		B325F46E1B28163400371465 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		B325F46F1B28163400371465 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		B325F4701B28163400371465 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		B325F4711B28163400371465 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		B325F4721B28163400371465 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		B325F4731B28163400371465 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		B325F4741B28163400371465 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		B325F4751B28163400371465 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		B325F4761B28163400371465 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		B325F4771B28163400371465 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		B325F4781B28163400371465 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		B32665D91B1EC260002256B6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		B334AA411B3177D700E4F4E6 /* meetingFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = meetingFinder.xcdatamodel; sourceTree = "<group>"; };
+		B334AA431B3178D300E4F4E6 /* MeetingFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingFinder.swift; sourceTree = "<group>"; };
+		B3388CEA1B182D30008D0B5E /* NavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		B33A90CB1B12E7A200231064 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B33AA1E01B12ED21003DA43D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B33AA1E21B12ED2A003DA43D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B33AA1E41B12ED3D003DA43D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B33AA1F51B130362003DA43D /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		B33AA1FD1B130E2E003DA43D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B33AA1FF1B130E3E003DA43D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B33AA2011B130E70003DA43D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B33AA2081B1328A1003DA43D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		B33AA2091B1328A1003DA43D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		B33AA20A1B1328A1003DA43D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		B33AA20D1B13290D003DA43D /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		B33AA20E1B13290D003DA43D /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		B33AA20F1B13290D003DA43D /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		B33B18D61B0F60990061BECB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B33B18D71B0F60990061BECB /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B33B18D81B0F60990061BECB /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B33B18D91B0F60990061BECB /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B33B18DA1B0F60990061BECB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B33B18DB1B0F60990061BECB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B33B18DC1B0F60990061BECB /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B33B18DF1B0F60990061BECB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B33B18E01B0F60990061BECB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B33B18E11B0F60990061BECB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B33B18E21B0F60990061BECB /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B33B18E31B0F60990061BECB /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B33B18E41B0F60990061BECB /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		B33B18EF1B0F60C80061BECB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B33E6AE01B26AE7B00208F56 /* SMLAppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMLAppUser.swift; sourceTree = "<group>"; };
+		B34552801B1C25B0001F20E2 /* SMLGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMLGlobal.swift; sourceTree = "<group>"; };
+		B34552841B1C4F7B001F20E2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B34552881B1C4F7B001F20E2 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASidePanelController.h; sourceTree = "<group>"; };
+		B34552891B1C4F7B001F20E2 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASidePanelController.m; sourceTree = "<group>"; };
+		B345528A1B1C4F7B001F20E2 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		B345528B1B1C4F7B001F20E2 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		B345528C1B1C4F7B001F20E2 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		B345528D1B1C4F7B001F20E2 /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		B34552D01B1C839F001F20E2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B34552D21B1C83A5001F20E2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B355B1D81B537CB00073BBD2 /* inAppPurchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inAppPurchase.swift; sourceTree = "<group>"; };
+		B355B1DD1B53A44E0073BBD2 /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		B355B1DE1B53A44E0073BBD2 /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		B355B1DF1B53A44E0073BBD2 /* GADMEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMEnums.h; sourceTree = "<group>"; };
+		B355B1E01B53A44E0073BBD2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		B355B1E51B53A5CE0073BBD2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B35765FF1B3AD72900080F93 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B35766001B3AD72A00080F93 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		B35975AE1B79AF0A0060B1BE /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		B35EFE431B46510600C71978 /* InAppClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppClass.h; sourceTree = "<group>"; };
+		B35EFE441B46510600C71978 /* InAppClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppClass.m; sourceTree = "<group>"; };
+		B3645F7B1B2FE7A800C0CD86 /* SMLModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMLModel.xcdatamodel; sourceTree = "<group>"; };
+		B3645F7D1B2FE80E00C0CD86 /* Meeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meeting.h; sourceTree = "<group>"; };
+		B3645F7E1B2FE80E00C0CD86 /* Meeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meeting.m; sourceTree = "<group>"; };
+		B3645F831B2FEB9100C0CD86 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		B36C7B841AF338D200D9F996 /* Recovery Meeting Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recovery Meeting Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36C7B881AF338D200D9F996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36C7B901AF338D200D9F996 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B36C7B931AF338D200D9F996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B38547051B186862000086C6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		B3BFDF4D1B56960400C784DF /* SPGooglePlacesAutocompletePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompletePlace.h; sourceTree = "<group>"; };
+		B3BFDF4E1B56960400C784DF /* SPGooglePlacesAutocompletePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompletePlace.m; sourceTree = "<group>"; };
+		B3BFDF4F1B56960400C784DF /* SPGooglePlacesAutocompleteQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompleteQuery.h; sourceTree = "<group>"; };
+		B3BFDF501B56960400C784DF /* SPGooglePlacesAutocompleteQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompleteQuery.m; sourceTree = "<group>"; };
+		B3BFDF511B56960400C784DF /* SPGooglePlacesAutocompleteUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompleteUtilities.h; sourceTree = "<group>"; };
+		B3BFDF521B56960400C784DF /* SPGooglePlacesAutocompleteUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompleteUtilities.m; sourceTree = "<group>"; };
+		B3BFDF531B56960400C784DF /* SPGooglePlacesPlaceDetailQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesPlaceDetailQuery.h; sourceTree = "<group>"; };
+		B3BFDF541B56960400C784DF /* SPGooglePlacesPlaceDetailQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesPlaceDetailQuery.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36C7B811AF338D200D9F996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B31DAC7F1BD5B72D00AEECEC /* GoogleMobileAds.framework in Frameworks */,
+				B33AA1E81B12ED9F003DA43D /* Foundation.framework in Frameworks */,
+				B33AA1EA1B12EDAD003DA43D /* UIKit.framework in Frameworks */,
+				B34552D11B1C839F001F20E2 /* CoreLocation.framework in Frameworks */,
+				B355B1E61B53A5CE0073BBD2 /* iAd.framework in Frameworks */,
+				338D3BD01DC9F74D00C64EDF /* FBSDKCoreKit.framework in Frameworks */,
+				B35766011B3AD72A00080F93 /* AddressBook.framework in Frameworks */,
+				B35766021B3AD72A00080F93 /* AddressBookUI.framework in Frameworks */,
+				B34552D31B1C83A5001F20E2 /* MapKit.framework in Frameworks */,
+				B33AA2021B130E70003DA43D /* libz.dylib in Frameworks */,
+				B32665DB1B1EC260002256B6 /* FBSDKLoginKit.framework in Frameworks */,
+				B33AA2001B130E3E003DA43D /* CFNetwork.framework in Frameworks */,
+				B33AA1FE1B130E2E003DA43D /* SystemConfiguration.framework in Frameworks */,
+				B33AA1E91B12EDA8003DA43D /* CoreFoundation.framework in Frameworks */,
+				33F6878C1DE2D183002A23AB /* StoreKit.framework in Frameworks */,
+				B35975AF1B79AF0A0060B1BE /* GoogleMobileAds.framework in Frameworks */,
+				B38547081B186862000086C6 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334EBBFC1DD1D5A100F6277D /* NotesVC */ = {
+			isa = PBXGroup;
+			children = (
+				334EBC251DD209C900F6277D /* TableViewCell.swift */,
+				334EBC261DD209C900F6277D /* TableViewCell.xib */,
+				334EBC051DD1D62200F6277D /* addnewNote.swift */,
+				334EBC031DD1D5EE00F6277D /* meetingNotes.swift */,
+				334EBBFD1DD1D5A100F6277D /* notes.swift */,
+				334EBBFE1DD1D5A100F6277D /* notesCell.swift */,
+				334EBBFF1DD1D5A100F6277D /* notesCell.xib */,
+			);
+			path = NotesVC;
+			sourceTree = "<group>";
+		};
+		334EBC071DD1D6EA00F6277D /* MotivationalWallVC */ = {
+			isa = PBXGroup;
+			children = (
+				334EBC0D1DD1DE2300F6277D /* imageTitleViewController.swift */,
+				334EBC0E1DD1DE2300F6277D /* publicPictureViewController.swift */,
+				334EBC081DD1D6EA00F6277D /* motivationalWallViewController.swift */,
+			);
+			path = MotivationalWallVC;
+			sourceTree = "<group>";
+		};
+		334EBC0A1DD1DD0D00F6277D /* AddNewPictureVC */ = {
+			isa = PBXGroup;
+			children = (
+				334EBC0B1DD1DD0D00F6277D /* addNewPictureViewController.swift */,
+			);
+			path = AddNewPictureVC;
+			sourceTree = "<group>";
+		};
+		334EBC131DD1FCB200F6277D /* UpgradeVC */ = {
+			isa = PBXGroup;
+			children = (
+				334EBC141DD1FCB200F6277D /* upgradeViewController.swift */,
+			);
+			path = UpgradeVC;
+			sourceTree = "<group>";
+		};
+		334EBC161DD1FD2C00F6277D /* SettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				334EBC211DD203A400F6277D /* AboutUsViewController.swift */,
+				334EBC191DD1FDAF00F6277D /* changePasswordViewController.swift */,
+				334EBC1A1DD1FDAF00F6277D /* faqViewController.swift */,
+				334EBC1B1DD1FDAF00F6277D /* helpViewController.swift */,
+				334EBC1C1DD1FDAF00F6277D /* term&conditionViewController.swift */,
+				334EBC171DD1FD2C00F6277D /* settingView.swift */,
+			);
+			path = SettingsVC;
+			sourceTree = "<group>";
+		};
+		334EBC291DD20A6B00F6277D /* SobrietyCalcVC */ = {
+			isa = PBXGroup;
+			children = (
+				334EBC2A1DD20A6B00F6277D /* sobrietyCalculatorViewController.swift */,
+			);
+			path = SobrietyCalcVC;
+			sourceTree = "<group>";
+		};
+		334EBC2B1DD20A6B00F6277D /* WhatsHereVC */ = {
+			isa = PBXGroup;
+			children = (
+				334EBC2C1DD20A6B00F6277D /* WhatsHereViewController.swift */,
+			);
+			path = WhatsHereVC;
+			sourceTree = "<group>";
+		};
+		338E299C1DCB25C300CDD721 /* WebserviceClass */ = {
+			isa = PBXGroup;
+			children = (
+				338E299D1DCB25C300CDD721 /* WebserviceManager.swift */,
+			);
+			path = WebserviceClass;
+			sourceTree = "<group>";
+		};
+		33E357E61DD18FB300983257 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				33E357E71DD18FB300983257 /* ViewController.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		33E357E81DD18FB300983257 /* RegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				33E357E91DD18FB300983257 /* SMLRegisterViewController.swift */,
+			);
+			path = RegisterVC;
+			sourceTree = "<group>";
+		};
+		33E357EC1DD1905700983257 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				33E357ED1DD1905700983257 /* FirstViewController.swift */,
+				33631DC51DDC329700BF9E66 /* HomeViewController.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		33E357F11DD1A7B400983257 /* SideMenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				334EBC231DD203FE00F6277D /* ProfileViewController.swift */,
+				33E357F21DD1A7B400983257 /* SideMenuViewController.swift */,
+			);
+			path = SideMenuVC;
+			sourceTree = "<group>";
+		};
+		33E357F41DD1A8C700983257 /* CallSponsorVC */ = {
+			isa = PBXGroup;
+			children = (
+				33E357F51DD1A8C700983257 /* callSponsorViewController.swift */,
+			);
+			path = CallSponsorVC;
+			sourceTree = "<group>";
+		};
+		33E357F61DD1A8C700983257 /* ContactsVC */ = {
+			isa = PBXGroup;
+			children = (
+				334EBC111DD1F67800F6277D /* addContactViewController.swift */,
+				33E357F71DD1A8C700983257 /* contactViewController.swift */,
+			);
+			path = ContactsVC;
+			sourceTree = "<group>";
+		};
+		33E357FA1DD1B44100983257 /* MeetingVC */ = {
+			isa = PBXGroup;
+			children = (
+				33BF716F1DD2FCE500C4D319 /* AddMeetingViewController.swift */,
+				334EBC2F1DD20C6500F6277D /* FindMeetingViewController.swift */,
+				334EBC301DD20C6500F6277D /* meeting_Finder.swift */,
+				33E358071DD1B5A200983257 /* MeetingDetailViewController.swift */,
+				33E357FF1DD1B44100983257 /* meetingFinderViewController.swift */,
+			);
+			path = MeetingVC;
+			sourceTree = "<group>";
+		};
+		33E358091DD1B5A800983257 /* DirectionVC */ = {
+			isa = PBXGroup;
+			children = (
+				33E3580A1DD1B5A800983257 /* directionViewController.swift */,
+			);
+			path = DirectionVC;
+			sourceTree = "<group>";
+		};
+		33E3580C1DD1B5FE00983257 /* CheckInVC */ = {
+			isa = PBXGroup;
+			children = (
+				33E3580D1DD1B5FE00983257 /* checkInViewController.swift */,
+			);
+			path = CheckInVC;
+			sourceTree = "<group>";
+		};
+		33E3580F1DD1B65400983257 /* MapManagerVC */ = {
+			isa = PBXGroup;
+			children = (
+				33E358101DD1B65400983257 /* MapManager.swift */,
+			);
+			path = MapManagerVC;
+			sourceTree = "<group>";
+		};
+		33F6878A1DE2D183002A23AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33F6878B1DE2D183002A23AB /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33FB82271DE563820040E585 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				33FB82281DE563820040E585 /* OpenSans-Bold.ttf */,
+				33FB82291DE563820040E585 /* OpenSans-Light.ttf */,
+				33FB822A1DE563820040E585 /* OpenSans-Regular.ttf */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B325F4571B28163400371465 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				B325F4581B28163400371465 /* MKAnnotationView+WebCache.h */,
+				B325F4591B28163400371465 /* MKAnnotationView+WebCache.m */,
+				B325F45A1B28163400371465 /* NSData+ImageContentType.h */,
+				B325F45B1B28163400371465 /* NSData+ImageContentType.m */,
+				B325F45C1B28163400371465 /* SDImageCache.h */,
+				B325F45D1B28163400371465 /* SDImageCache.m */,
+				B325F45E1B28163400371465 /* SDWebImageCompat.h */,
+				B325F45F1B28163400371465 /* SDWebImageCompat.m */,
+				B325F4601B28163400371465 /* SDWebImageDecoder.h */,
+				B325F4611B28163400371465 /* SDWebImageDecoder.m */,
+				B325F4621B28163400371465 /* SDWebImageDownloader.h */,
+				B325F4631B28163400371465 /* SDWebImageDownloader.m */,
+				B325F4641B28163400371465 /* SDWebImageDownloaderOperation.h */,
+				B325F4651B28163400371465 /* SDWebImageDownloaderOperation.m */,
+				B325F4661B28163400371465 /* SDWebImageManager.h */,
+				B325F4671B28163400371465 /* SDWebImageManager.m */,
+				B325F4681B28163400371465 /* SDWebImageOperation.h */,
+				B325F4691B28163400371465 /* SDWebImagePrefetcher.h */,
+				B325F46A1B28163400371465 /* SDWebImagePrefetcher.m */,
+				B325F46B1B28163400371465 /* UIButton+WebCache.h */,
+				B325F46C1B28163400371465 /* UIButton+WebCache.m */,
+				B325F46D1B28163400371465 /* UIImage+GIF.h */,
+				B325F46E1B28163400371465 /* UIImage+GIF.m */,
+				B325F46F1B28163400371465 /* UIImage+MultiFormat.h */,
+				B325F4701B28163400371465 /* UIImage+MultiFormat.m */,
+				B325F4711B28163400371465 /* UIImage+WebP.h */,
+				B325F4721B28163400371465 /* UIImage+WebP.m */,
+				B325F4731B28163400371465 /* UIImageView+HighlightedWebCache.h */,
+				B325F4741B28163400371465 /* UIImageView+HighlightedWebCache.m */,
+				B325F4751B28163400371465 /* UIImageView+WebCache.h */,
+				B325F4761B28163400371465 /* UIImageView+WebCache.m */,
+				B325F4771B28163400371465 /* UIView+WebCacheOperation.h */,
+				B325F4781B28163400371465 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		B33AA1E71B12ED6A003DA43D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				338D3BCF1DC9F74D00C64EDF /* FBSDKCoreKit.framework */,
+				B35765FF1B3AD72900080F93 /* AddressBook.framework */,
+				B35766001B3AD72A00080F93 /* AddressBookUI.framework */,
+				B34552D21B1C83A5001F20E2 /* MapKit.framework */,
+				B34552D01B1C839F001F20E2 /* CoreLocation.framework */,
+				B32665D91B1EC260002256B6 /* FBSDKLoginKit.framework */,
+				B38547051B186862000086C6 /* Bolts.framework */,
+				B33AA2011B130E70003DA43D /* libz.dylib */,
+				B33AA1FF1B130E3E003DA43D /* CFNetwork.framework */,
+				B33AA1FD1B130E2E003DA43D /* SystemConfiguration.framework */,
+				B33AA1E41B12ED3D003DA43D /* Foundation.framework */,
+				B33AA1E21B12ED2A003DA43D /* CoreFoundation.framework */,
+				B33AA1E01B12ED21003DA43D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B33B18D01B0F60990061BECB /* ThirdPartyClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B3BFDF4C1B56960400C784DF /* GooglePlaces */,
+				B355B1DA1B53A44E0073BBD2 /* GoogleAdMob */,
+				B35EFE8C1B46BAE100C71978 /* LoadingTableView */,
+				B325F4571B28163400371465 /* SDWebImage */,
+				B30E88D31B1CA0DB00670FEF /* JADebugViewController.h */,
+				B30E88D41B1CA0DB00670FEF /* JADebugViewController.m */,
+				B34552841B1C4F7B001F20E2 /* Constants.swift */,
+				B34552851B1C4F7B001F20E2 /* JASidePanels */,
+				B345528D1B1C4F7B001F20E2 /* SideMenuController.swift */,
+				B33B19691B0F6B010061BECB /* ProgressHUD */,
+				B33B196D1B0F6B010061BECB /* Reachbility */,
+				B33B18D11B0F60990061BECB /* AFNetworking */,
+			);
+			path = ThirdPartyClasses;
+			sourceTree = "<group>";
+		};
+		B33B18D11B0F60990061BECB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B33B18D61B0F60990061BECB /* AFHTTPSessionManager.h */,
+				B33B18D71B0F60990061BECB /* AFHTTPSessionManager.m */,
+				B33B18D81B0F60990061BECB /* AFNetworking.h */,
+				B33B18D91B0F60990061BECB /* AFNetworkReachabilityManager.h */,
+				B33B18DA1B0F60990061BECB /* AFNetworkReachabilityManager.m */,
+				B33B18DB1B0F60990061BECB /* AFSecurityPolicy.h */,
+				B33B18DC1B0F60990061BECB /* AFSecurityPolicy.m */,
+				B33B18DF1B0F60990061BECB /* AFURLRequestSerialization.h */,
+				B33B18E01B0F60990061BECB /* AFURLRequestSerialization.m */,
+				B33B18E11B0F60990061BECB /* AFURLResponseSerialization.h */,
+				B33B18E21B0F60990061BECB /* AFURLResponseSerialization.m */,
+				B33B18E31B0F60990061BECB /* AFURLSessionManager.h */,
+				B33B18E41B0F60990061BECB /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		B33B18EE1B0F60C80061BECB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B33B18EF1B0F60C80061BECB /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B33B18F11B0F61250061BECB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				334EBC291DD20A6B00F6277D /* SobrietyCalcVC */,
+				334EBC2B1DD20A6B00F6277D /* WhatsHereVC */,
+				334EBC161DD1FD2C00F6277D /* SettingsVC */,
+				334EBC131DD1FCB200F6277D /* UpgradeVC */,
+				334EBC0A1DD1DD0D00F6277D /* AddNewPictureVC */,
+				334EBC071DD1D6EA00F6277D /* MotivationalWallVC */,
+				334EBBFC1DD1D5A100F6277D /* NotesVC */,
+				33E3580F1DD1B65400983257 /* MapManagerVC */,
+				33E3580C1DD1B5FE00983257 /* CheckInVC */,
+				33E358091DD1B5A800983257 /* DirectionVC */,
+				33E357FA1DD1B44100983257 /* MeetingVC */,
+				33E357F41DD1A8C700983257 /* CallSponsorVC */,
+				33E357F61DD1A8C700983257 /* ContactsVC */,
+				33E357F11DD1A7B400983257 /* SideMenuVC */,
+				33E357EC1DD1905700983257 /* MainVC */,
+				33E357E61DD18FB300983257 /* LoginVC */,
+				33E357E81DD18FB300983257 /* RegisterVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B33B19691B0F6B010061BECB /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B33AA20D1B13290D003DA43D /* SVIndefiniteAnimatedView.h */,
+				B33AA20E1B13290D003DA43D /* SVIndefiniteAnimatedView.m */,
+				B33AA20F1B13290D003DA43D /* SVProgressHUD-Prefix.pch */,
+				B33AA2081B1328A1003DA43D /* SVProgressHUD.bundle */,
+				B33AA2091B1328A1003DA43D /* SVProgressHUD.h */,
+				B33AA20A1B1328A1003DA43D /* SVProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		B33B196D1B0F6B010061BECB /* Reachbility */ = {
+			isa = PBXGroup;
+			children = (
+				B33A90CB1B12E7A200231064 /* Reachability.swift */,
+			);
+			path = Reachbility;
+			sourceTree = "<group>";
+		};
+		B33B19731B0F6B500061BECB /* HandlerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				33E357EF1DD1988A00983257 /* BaseApi.swift */,
+				338E299C1DCB25C300CDD721 /* WebserviceClass */,
+				B35EFE421B46510600C71978 /* In-App Purchase */,
+				B33AA1F51B130362003DA43D /* bridge.h */,
+				B3388CEA1B182D30008D0B5E /* NavigationView.swift */,
+				B34552801B1C25B0001F20E2 /* SMLGlobal.swift */,
+				B33E6AE01B26AE7B00208F56 /* SMLAppUser.swift */,
+				B355B1D81B537CB00073BBD2 /* inAppPurchase.swift */,
+			);
+			path = HandlerClasses;
+			sourceTree = "<group>";
+		};
+		B34552851B1C4F7B001F20E2 /* JASidePanels */ = {
+			isa = PBXGroup;
+			children = (
+				B34552861B1C4F7B001F20E2 /* JASidePanels */,
+				B345528C1B1C4F7B001F20E2 /* README.markdown */,
+			);
+			path = JASidePanels;
+			sourceTree = "<group>";
+		};
+		B34552861B1C4F7B001F20E2 /* JASidePanels */ = {
+			isa = PBXGroup;
+			children = (
+				B34552871B1C4F7B001F20E2 /* Source */,
+			);
+			path = JASidePanels;
+			sourceTree = "<group>";
+		};
+		B34552871B1C4F7B001F20E2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B34552881B1C4F7B001F20E2 /* JASidePanelController.h */,
+				B34552891B1C4F7B001F20E2 /* JASidePanelController.m */,
+				B345528A1B1C4F7B001F20E2 /* UIViewController+JASidePanel.h */,
+				B345528B1B1C4F7B001F20E2 /* UIViewController+JASidePanel.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B355B1DA1B53A44E0073BBD2 /* GoogleAdMob */ = {
+			isa = PBXGroup;
+			children = (
+				B35975AE1B79AF0A0060B1BE /* GoogleMobileAds.framework */,
+				B355B1DC1B53A44E0073BBD2 /* Mediation Adapters */,
+			);
+			path = GoogleAdMob;
+			sourceTree = "<group>";
+		};
+		B355B1DC1B53A44E0073BBD2 /* Mediation Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				B355B1DD1B53A44E0073BBD2 /* GADMAdNetworkAdapterProtocol.h */,
+				B355B1DE1B53A44E0073BBD2 /* GADMAdNetworkConnectorProtocol.h */,
+				B355B1DF1B53A44E0073BBD2 /* GADMEnums.h */,
+				B355B1E01B53A44E0073BBD2 /* README.txt */,
+			);
+			path = "Mediation Adapters";
+			sourceTree = "<group>";
+		};
+		B35EFE421B46510600C71978 /* In-App Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				B35EFE431B46510600C71978 /* InAppClass.h */,
+				B35EFE441B46510600C71978 /* InAppClass.m */,
+			);
+			path = "In-App Purchase";
+			sourceTree = "<group>";
+		};
+		B35EFE8C1B46BAE100C71978 /* LoadingTableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoadingTableView;
+			sourceTree = "<group>";
+		};
+		B3645F791B2FE78F00C0CD86 /* CoreDataClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B334AA431B3178D300E4F4E6 /* MeetingFinder.swift */,
+				B334AA401B3177D700E4F4E6 /* meetingFinder.xcdatamodeld */,
+				B3645F7A1B2FE7A800C0CD86 /* SMLModel.xcdatamodeld */,
+				B3645F7D1B2FE80E00C0CD86 /* Meeting.h */,
+				B3645F7E1B2FE80E00C0CD86 /* Meeting.m */,
+				B3645F831B2FEB9100C0CD86 /* CoreDataHelper.swift */,
+			);
+			path = CoreDataClasses;
+			sourceTree = "<group>";
+		};
+		B36C7B7B1AF338D200D9F996 = {
+			isa = PBXGroup;
+			children = (
+				B31DAC7E1BD5B72D00AEECEC /* GoogleMobileAds.framework */,
+				B355B1E51B53A5CE0073BBD2 /* iAd.framework */,
+				B36C7B861AF338D200D9F996 /* 12 Steps Meeting Locator */,
+				B36C7B851AF338D200D9F996 /* Products */,
+				33F6878A1DE2D183002A23AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B36C7B851AF338D200D9F996 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36C7B841AF338D200D9F996 /* Recovery Meeting Locator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36C7B861AF338D200D9F996 /* 12 Steps Meeting Locator */ = {
+			isa = PBXGroup;
+			children = (
+				33FB822E1DE5654C0040E585 /* Spledger-Bridging-Header.h */,
+				3305DCD71DD5DFC300286DC0 /* 12 Steps Meeting Locator.entitlements */,
+				B3645F791B2FE78F00C0CD86 /* CoreDataClasses */,
+				B33B19731B0F6B500061BECB /* HandlerClasses */,
+				B33B18F11B0F61250061BECB /* ViewControllers */,
+				B33B18EE1B0F60C80061BECB /* AppDelegate */,
+				B33B18D01B0F60990061BECB /* ThirdPartyClasses */,
+				B33AA1E71B12ED6A003DA43D /* Frameworks */,
+				B36C7B871AF338D200D9F996 /* Supporting Files */,
+			);
+			path = "12 Steps Meeting Locator";
+			sourceTree = "<group>";
+		};
+		B36C7B871AF338D200D9F996 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33FB82271DE563820040E585 /* Images */,
+				B36C7B901AF338D200D9F996 /* Images.xcassets */,
+				B36C7B881AF338D200D9F996 /* Info.plist */,
+				B36C7B921AF338D200D9F996 /* LaunchScreen.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3BFDF4C1B56960400C784DF /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				B3BFDF4D1B56960400C784DF /* SPGooglePlacesAutocompletePlace.h */,
+				B3BFDF4E1B56960400C784DF /* SPGooglePlacesAutocompletePlace.m */,
+				B3BFDF4F1B56960400C784DF /* SPGooglePlacesAutocompleteQuery.h */,
+				B3BFDF501B56960400C784DF /* SPGooglePlacesAutocompleteQuery.m */,
+				B3BFDF511B56960400C784DF /* SPGooglePlacesAutocompleteUtilities.h */,
+				B3BFDF521B56960400C784DF /* SPGooglePlacesAutocompleteUtilities.m */,
+				B3BFDF531B56960400C784DF /* SPGooglePlacesPlaceDetailQuery.h */,
+				B3BFDF541B56960400C784DF /* SPGooglePlacesPlaceDetailQuery.m */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36C7B831AF338D200D9F996 /* 12 Steps Meeting Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36C7BA31AF338D200D9F996 /* Build configuration list for PBXNativeTarget "12 Steps Meeting Locator" */;
+			buildPhases = (
+				B36C7B801AF338D200D9F996 /* Sources */,
+				B36C7B811AF338D200D9F996 /* Frameworks */,
+				B36C7B821AF338D200D9F996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12 Steps Meeting Locator";
+			productName = "12 Steps Meeting Locator";
+			productReference = B36C7B841AF338D200D9F996 /* Recovery Meeting Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36C7B7C1AF338D200D9F996 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = iapp;
+				TargetAttributes = {
+					B36C7B831AF338D200D9F996 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = YE2D7HUV2X;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B36C7B7F1AF338D200D9F996 /* Build configuration list for PBXProject "12 Steps Meeting Locator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36C7B7B1AF338D200D9F996;
+			productRefGroup = B36C7B851AF338D200D9F996 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36C7B831AF338D200D9F996 /* 12 Steps Meeting Locator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36C7B821AF338D200D9F996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33AA20B1B1328A1003DA43D /* SVProgressHUD.bundle in Resources */,
+				33FB822B1DE563820040E585 /* OpenSans-Bold.ttf in Resources */,
+				33FB822C1DE563820040E585 /* OpenSans-Light.ttf in Resources */,
+				B36C7B941AF338D200D9F996 /* LaunchScreen.xib in Resources */,
+				334EBC281DD209C900F6277D /* TableViewCell.xib in Resources */,
+				B36C7B911AF338D200D9F996 /* Images.xcassets in Resources */,
+				B355B1E21B53A44F0073BBD2 /* README.txt in Resources */,
+				33FB822D1DE563820040E585 /* OpenSans-Regular.ttf in Resources */,
+				334EBC021DD1D5A100F6277D /* notesCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36C7B801AF338D200D9F996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B325F4821B28163400371465 /* UIButton+WebCache.m in Sources */,
+				B33B18E91B0F60990061BECB /* AFSecurityPolicy.m in Sources */,
+				33E3580B1DD1B5A800983257 /* directionViewController.swift in Sources */,
+				33E357EB1DD18FB300983257 /* SMLRegisterViewController.swift in Sources */,
+				334EBC1F1DD1FDAF00F6277D /* helpViewController.swift in Sources */,
+				338E299E1DCB25C300CDD721 /* WebserviceManager.swift in Sources */,
+				B3388CEB1B182D30008D0B5E /* NavigationView.swift in Sources */,
+				B325F4861B28163400371465 /* UIImageView+HighlightedWebCache.m in Sources */,
+				B325F47A1B28163400371465 /* NSData+ImageContentType.m in Sources */,
+				B34552901B1C4F7B001F20E2 /* UIViewController+JASidePanel.m in Sources */,
+				B34552911B1C4F7B001F20E2 /* README.markdown in Sources */,
+				B30E88D51B1CA0DB00670FEF /* JADebugViewController.m in Sources */,
+				B3BFDF551B56960400C784DF /* SPGooglePlacesAutocompletePlace.m in Sources */,
+				B325F47C1B28163400371465 /* SDWebImageCompat.m in Sources */,
+				B355B1D91B537CB00073BBD2 /* inAppPurchase.swift in Sources */,
+				33E358081DD1B5A200983257 /* MeetingDetailViewController.swift in Sources */,
+				334EBC151DD1FCB200F6277D /* upgradeViewController.swift in Sources */,
+				33E358051DD1B44100983257 /* meetingFinderViewController.swift in Sources */,
+				B325F4801B28163400371465 /* SDWebImageManager.m in Sources */,
+				334EBC311DD20C6500F6277D /* FindMeetingViewController.swift in Sources */,
+				334EBC321DD20C6500F6277D /* meeting_Finder.swift in Sources */,
+				334EBC2E1DD20A6B00F6277D /* WhatsHereViewController.swift in Sources */,
+				B33E6AE11B26AE7B00208F56 /* SMLAppUser.swift in Sources */,
+				B325F47B1B28163400371465 /* SDImageCache.m in Sources */,
+				33E357F31DD1A7B400983257 /* SideMenuViewController.swift in Sources */,
+				B325F47D1B28163400371465 /* SDWebImageDecoder.m in Sources */,
+				334EBC201DD1FDAF00F6277D /* term&conditionViewController.swift in Sources */,
+				B345528E1B1C4F7B001F20E2 /* Constants.swift in Sources */,
+				33E357F91DD1A8C700983257 /* contactViewController.swift in Sources */,
+				B3BFDF581B56960400C784DF /* SPGooglePlacesPlaceDetailQuery.m in Sources */,
+				334EBC1E1DD1FDAF00F6277D /* faqViewController.swift in Sources */,
+				B334AA441B3178D300E4F4E6 /* MeetingFinder.swift in Sources */,
+				B325F47E1B28163400371465 /* SDWebImageDownloader.m in Sources */,
+				B3BFDF561B56960400C784DF /* SPGooglePlacesAutocompleteQuery.m in Sources */,
+				B3645F841B2FEB9100C0CD86 /* CoreDataHelper.swift in Sources */,
+				33E3580E1DD1B5FE00983257 /* checkInViewController.swift in Sources */,
+				334EBC0F1DD1DE2300F6277D /* imageTitleViewController.swift in Sources */,
+				B325F4841B28163400371465 /* UIImage+MultiFormat.m in Sources */,
+				B33B18EB1B0F60990061BECB /* AFURLRequestSerialization.m in Sources */,
+				B325F4851B28163400371465 /* UIImage+WebP.m in Sources */,
+				B34552921B1C4F7B001F20E2 /* SideMenuController.swift in Sources */,
+				B33AA2101B13290D003DA43D /* SVIndefiniteAnimatedView.m in Sources */,
+				334EBC101DD1DE2300F6277D /* publicPictureViewController.swift in Sources */,
+				B33B18E71B0F60990061BECB /* AFHTTPSessionManager.m in Sources */,
+				B345528F1B1C4F7B001F20E2 /* JASidePanelController.m in Sources */,
+				B35EFE451B46510600C71978 /* InAppClass.m in Sources */,
+				33E357EA1DD18FB300983257 /* ViewController.swift in Sources */,
+				B325F4881B28163400371465 /* UIView+WebCacheOperation.m in Sources */,
+				33E358111DD1B65400983257 /* MapManager.swift in Sources */,
+				33631DC61DDC329700BF9E66 /* HomeViewController.swift in Sources */,
+				B325F4811B28163400371465 /* SDWebImagePrefetcher.m in Sources */,
+				B325F4831B28163400371465 /* UIImage+GIF.m in Sources */,
+				33E357F01DD1988A00983257 /* BaseApi.swift in Sources */,
+				B33AA20C1B1328A1003DA43D /* SVProgressHUD.m in Sources */,
+				B33B18F01B0F60C80061BECB /* AppDelegate.swift in Sources */,
+				B33B18E81B0F60990061BECB /* AFNetworkReachabilityManager.m in Sources */,
+				334EBC0C1DD1DD0D00F6277D /* addNewPictureViewController.swift in Sources */,
+				B334AA421B3177D700E4F4E6 /* meetingFinder.xcdatamodeld in Sources */,
+				B325F4791B28163400371465 /* MKAnnotationView+WebCache.m in Sources */,
+				33BF71701DD2FCE500C4D319 /* AddMeetingViewController.swift in Sources */,
+				334EBC221DD203A400F6277D /* AboutUsViewController.swift in Sources */,
+				B325F47F1B28163400371465 /* SDWebImageDownloaderOperation.m in Sources */,
+				B33B18EC1B0F60990061BECB /* AFURLResponseSerialization.m in Sources */,
+				334EBC121DD1F67800F6277D /* addContactViewController.swift in Sources */,
+				B33A90CC1B12E7A200231064 /* Reachability.swift in Sources */,
+				334EBC001DD1D5A100F6277D /* notes.swift in Sources */,
+				334EBC271DD209C900F6277D /* TableViewCell.swift in Sources */,
+				B3645F7C1B2FE7A800C0CD86 /* SMLModel.xcdatamodeld in Sources */,
+				334EBC091DD1D6EA00F6277D /* motivationalWallViewController.swift in Sources */,
+				33E357F81DD1A8C700983257 /* callSponsorViewController.swift in Sources */,
+				B325F4871B28163400371465 /* UIImageView+WebCache.m in Sources */,
+				334EBC181DD1FD2C00F6277D /* settingView.swift in Sources */,
+				334EBC241DD203FE00F6277D /* ProfileViewController.swift in Sources */,
+				334EBC011DD1D5A100F6277D /* notesCell.swift in Sources */,
+				33E357EE1DD1905700983257 /* FirstViewController.swift in Sources */,
+				334EBC041DD1D5EE00F6277D /* meetingNotes.swift in Sources */,
+				334EBC2D1DD20A6B00F6277D /* sobrietyCalculatorViewController.swift in Sources */,
+				B34552811B1C25B0001F20E2 /* SMLGlobal.swift in Sources */,
+				B33B18ED1B0F60990061BECB /* AFURLSessionManager.m in Sources */,
+				334EBC1D1DD1FDAF00F6277D /* changePasswordViewController.swift in Sources */,
+				334EBC061DD1D62200F6277D /* addnewNote.swift in Sources */,
+				B3BFDF571B56960400C784DF /* SPGooglePlacesAutocompleteUtilities.m in Sources */,
+				B3645F7F1B2FE80E00C0CD86 /* Meeting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B36C7B921AF338D200D9F996 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36C7B931AF338D200D9F996 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36C7BA11AF338D200D9F996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "12 Steps Meeting Locator/12 Steps Meeting Locator.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony Jordan (TU46Z7K5GB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony Jordan (TU46Z7K5GB)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YE2D7HUV2X;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = "12 Steps Meeting Locator";
+				PRODUCT_NAME = "Recovery Meeting Locator";
+				PROVISIONING_PROFILE = "f7037abb-159e-4dde-a0a4-7a1b64a2ac29";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Data/Rajni Folder/12StepLocatorApp/12 Steps Meeting Locator/12 Steps Meeting Locator/Spledger-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B36C7BA21AF338D200D9F996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "12 Steps Meeting Locator/12 Steps Meeting Locator.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony Jordan (TU46Z7K5GB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony Jordan (TU46Z7K5GB)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YE2D7HUV2X;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = "12 Steps Meeting Locator";
+				PRODUCT_NAME = "Recovery Meeting Locator";
+				PROVISIONING_PROFILE = "f7037abb-159e-4dde-a0a4-7a1b64a2ac29";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Data/Rajni Folder/12StepLocatorApp/12 Steps Meeting Locator/12 Steps Meeting Locator/Spledger-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36C7BA41AF338D200D9F996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony Jordan (TU46Z7K5GB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony Jordan (TU46Z7K5GB)";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = YE2D7HUV2X;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12\\ Steps\\ Meeting\\ Locator",
+				);
+				INFOPLIST_FILE = "12 Steps Meeting Locator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
+				PRODUCT_BUNDLE_IDENTIFIER = com.12StepLocator.app;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "Recovery Meeting Locator";
+				PROVISIONING_PROFILE = "f7037abb-159e-4dde-a0a4-7a1b64a2ac29";
+				PROVISIONING_PROFILE_SPECIFIER = 12StepLocatorDevelopment;
+				SWIFT_OBJC_BRIDGING_HEADER = "12 Steps Meeting Locator/Spledger-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B36C7BA51AF338D200D9F996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anthony Jordan (TU46Z7K5GB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anthony Jordan (TU46Z7K5GB)";
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator/ThirdPartyClasses/GoogleAdMob,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12",
+					Steps,
+					Meeting,
+					Locator,
+					"$(PROJECT_DIR)/12\\ Steps\\ Meeting\\ Locator",
+				);
+				INFOPLIST_FILE = "12 Steps Meeting Locator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
+				PRODUCT_BUNDLE_IDENTIFIER = com.12StepLocator.app;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "Recovery Meeting Locator";
+				PROVISIONING_PROFILE = "f7037abb-159e-4dde-a0a4-7a1b64a2ac29";
+				PROVISIONING_PROFILE_SPECIFIER = 12StepLocatorDevelopment;
+				SWIFT_OBJC_BRIDGING_HEADER = "12 Steps Meeting Locator/Spledger-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36C7B7F1AF338D200D9F996 /* Build configuration list for PBXProject "12 Steps Meeting Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36C7BA11AF338D200D9F996 /* Debug */,
+				B36C7BA21AF338D200D9F996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36C7BA31AF338D200D9F996 /* Build configuration list for PBXNativeTarget "12 Steps Meeting Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36C7BA41AF338D200D9F996 /* Debug */,
+				B36C7BA51AF338D200D9F996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B334AA401B3177D700E4F4E6 /* meetingFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B334AA411B3177D700E4F4E6 /* meetingFinder.xcdatamodel */,
+			);
+			currentVersion = B334AA411B3177D700E4F4E6 /* meetingFinder.xcdatamodel */;
+			path = meetingFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		B3645F7A1B2FE7A800C0CD86 /* SMLModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3645F7B1B2FE7A800C0CD86 /* SMLModel.xcdatamodel */,
+			);
+			currentVersion = B3645F7B1B2FE7A800C0CD86 /* SMLModel.xcdatamodel */;
+			path = SMLModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B36C7B7C1AF338D200D9F996 /* Project object */;
+}
